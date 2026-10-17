@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IBM Z Confidential Computing — Fraud Detection Demo</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- D3.js v7 -->
+  <script src="https://unpkg.com/d3@7"></script>
+  <!-- React 18 + ReactDOM -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <!-- Babel standalone for JSX transpilation -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <style>
+    /* Row animation keyframes */
+    @keyframes fadeSlideIn {
+      from { opacity: 0; transform: translateX(-12px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    .row-animate {
+      opacity: 0;
+      animation: fadeSlideIn 0.4s ease forwards;
+    }
+
+    /* Node tooltip */
+    .node-tooltip {
+      position: absolute;
+      background: rgba(17, 24, 39, 0.95);
+      border: 1px solid #3b82f6;
+      color: #e5e7eb;
+      padding: 6px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      pointer-events: none;
+      white-space: nowrap;
+      z-index: 100;
+    }
+
+    /* Scrollbar styling */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #1f2937; }
+    ::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 3px; }
+
+    /* Pulse animation for status dot */
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .pulse-dot { animation: pulse 1.5s ease-in-out infinite; }
+  </style>
+
+  <script>
+    // Configure Tailwind dark mode
+    tailwind.config = { darkMode: 'class' };
+  </script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+
+<div id="root"></div>
+
+<script type="text/babel">
+// ── Configuration ─────────────────────────────────────────────────────────
+// Use relative URL — dashboard must be served by Flask at http://localhost:5001
+// If you see "API Error", make sure Flask is running: python3 src/app.py
+const API = '';
+
+// Detect if opened as a local file instead of through Flask
+if (window.location.protocol === 'file:') {
+  document.body.innerHTML = `
+    <div style="font-family:monospace;background:#1a1a2e;color:#e2e8f0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem;">
+      <div style="max-width:600px;background:#2d2d44;border:1px solid #f87171;border-radius:12px;padding:2rem;">
+        <h2 style="color:#f87171;margin:0 0 1rem">⚠️ Open via Flask, not as a file</h2>
+        <p>You opened this file directly in your browser (<code style="background:#1a1a2e;padding:2px 6px;border-radius:4px;">file://</code>). The dashboard needs a running server.</p>
+        <p style="margin-top:1rem"><strong>Do this instead:</strong></p>
+        <ol style="line-height:2">
+          <li>Open Terminal</li>
+          <li>Run: <code style="background:#1a1a2e;padding:2px 8px;border-radius:4px;">cd "/Users/siddharthmaurya/ibm data thon/ibm-fraud-hunter" &amp;&amp; python3 src/app.py</code></li>
+          <li>Then go to: <a href="http://localhost:5001" style="color:#60a5fa">http://localhost:5001</a></li>
+        </ol>
+      </div>
+    </div>`;
+  throw new Error('opened as file://');
+}
+
+// ── Utility helpers ───────────────────────────────────────────────────────
+function ScoreBadge({ score }) {
+  const pct = Math.round(score * 100);
+  const color = pct > 80 ? 'bg-red-600' : pct > 50 ? 'bg-orange-500' : 'bg-yellow-500';
+  return (
+    <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-bold text-white ${color}`}>
+      {pct}%
+    </span>
+  );
+}
+
+function StatCard({ label, value, icon, color }) {
+  return (
+    <div className={`bg-gray-800 border ${color} rounded-xl p-4 flex flex-col items-center gap-1 shadow-lg`}>
+      <span className="text-3xl">{icon}</span>
+      <span className="text-3xl font-extrabold text-white">{value ?? '—'}</span>
+      <span className="text-xs text-gray-400 text-center">{label}</span>
+    </div>
+  );
+}
+
+// ── D3 Graph Component ────────────────────────────────────────────────────
+function D3Graph({ graphData }) {
+  const svgRef = React.useRef(null);
+  const tooltipRef = React.useRef(null);
+
+  React.useEffect(() => {
+    if (!graphData || !graphData.nodes || !graphData.nodes.length) return;
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
+
+    const width = svgRef.current.clientWidth || 500;
+    const height = 420;
+
+    const { nodes, edges } = graphData;
+
+    // Build simulation
+    const sim = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(edges).id(d => d.id).distance(60))
+      .force('charge', d3.forceManyBody().strength(-200))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide(14));
+
+    // Edge lines
+    const link = svg.append('g')
+      .selectAll('line')
+      .data(edges)
+      .join('line')
+      .attr('stroke', d => d.fraud_score > 0.5 ? '#f97316' : '#6b7280')
+      .attr('stroke-width', d => d.fraud_score > 0.5 ? 2 : 1)
+      .attr('stroke-opacity', 0.7);
+
+    // Node circles
+    const node = svg.append('g')
+      .selectAll('circle')
+      .data(nodes)
+      .join('circle')
+      .attr('r', 8)
+      .attr('fill', d => d.is_fraud ? '#ef4444' : '#3b82f6')
+      .attr('stroke', '#111827')
+      .attr('stroke-width', 1.5)
+      .style('opacity', 0)
+      .style('cursor', 'pointer')
+      .call(
+        d3.drag()
+          .on('start', (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+          .on('drag',  (event, d) => { d.fx = event.x; d.fy = event.y; })
+          .on('end',   (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; })
+      );
+
+    // Fade-in nodes
+    node.transition().duration(1000).delay((_, i) => i * 20).style('opacity', 1);
+
+    // Node labels
+    const label = svg.append('g')
+      .selectAll('text')
+      .data(nodes)
+      .join('text')
+      .text(d => d.bank ? d.bank.replace('Bank','') : d.id.slice(0, 8))
+      .attr('font-size', '9px')
+      .attr('fill', '#d1d5db')
+      .attr('text-anchor', 'middle')
+      .attr('dy', 20)
+      .style('pointer-events', 'none')
+      .style('opacity', 0);
+
+    label.transition().duration(1000).delay((_, i) => i * 20 + 300).style('opacity', 0.8);
+
+    // Tooltip
+    const tooltip = d3.select(tooltipRef.current);
+    node
+      .on('mouseover', (event, d) => {
+        tooltip
+          .style('display', 'block')
+          .html(`
+            <strong>${d.id}</strong><br/>
+            Bank: ${d.bank || 'Unknown'}<br/>
+            Fraud Score: ${Math.round(d.fraud_score * 100)}%<br/>
+            Status: ${d.is_fraud ? '🔴 FLAGGED' : '🔵 Clean'}
+          `);
+      })
+      .on('mousemove', event => {
+        const rect = svgRef.current.getBoundingClientRect();
+        tooltip
+          .style('left', (event.clientX - rect.left + 12) + 'px')
+          .style('top',  (event.clientY - rect.top  - 10) + 'px');
+      })
+      .on('mouseout', () => tooltip.style('display', 'none'));
+
+    // Simulation tick
+    sim.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+      node
+        .attr('cx', d => Math.max(10, Math.min(width - 10, d.x)))
+        .attr('cy', d => Math.max(10, Math.min(height - 10, d.y)));
+      label
+        .attr('x', d => Math.max(10, Math.min(width - 10, d.x)))
+        .attr('y', d => Math.max(10, Math.min(height - 10, d.y)));
+    });
+
+    return () => sim.stop();
+  }, [graphData]);
+
+  return (
+    <div className="relative w-full" style={{ height: '420px' }}>
+      <svg
+        ref={svgRef}
+        className="w-full rounded-lg bg-gray-950 border border-gray-700"
+        style={{ height: '420px' }}
+      />
+      <div ref={tooltipRef} className="node-tooltip" style={{ display: 'none' }} />
+      {/* Legend */}
+      <div className="absolute bottom-2 left-2 flex gap-3 text-xs text-gray-400">
+        <span className="flex items-center gap-1">
+          <span className="inline-block w-3 h-3 rounded-full bg-red-500"></span> Fraud node
+        </span>
+        <span className="flex items-center gap-1">
+          <span className="inline-block w-3 h-3 rounded-full bg-blue-500"></span> Clean node
+        </span>
+        <span className="flex items-center gap-1">
+          <span className="inline-block w-6 h-0.5 bg-orange-400"></span> Fraud edge
+        </span>
+      </div>
+    </div>
+  );
+}
+
+// ── Main App ──────────────────────────────────────────────────────────────
+function App() {
+  const [stats, setStats]           = React.useState(null);
+  const [scrambled, setScrambled]   = React.useState([]);
+  const [detected, setDetected]     = React.useState([]);
+  const [graphData, setGraphData]   = React.useState(null);
+  const [status, setStatus]         = React.useState('idle');   // idle | loading | done | error
+  const [apiError, setApiError]     = React.useState(false);
+  const [rowsVisible, setRowsVisible] = React.useState(0);
+
+  // Load Screen A data and stats on mount
+  React.useEffect(() => {
+    Promise.all([
+      fetch(`${API}/api/scrambled`).then(r => r.json()),
+      fetch(`${API}/api/stats`).then(r => r.json()),
+    ])
+    .then(([scrambledData, statsData]) => {
+      setScrambled(Array.isArray(scrambledData) ? scrambledData : []);
+      setStats(statsData);
+      setApiError(false);
+      // Stagger row appearance
+      let i = 0;
+      const interval = setInterval(() => {
+        i += 1;
+        setRowsVisible(i);
+        if (i >= (Array.isArray(scrambledData) ? scrambledData.length : 0)) clearInterval(interval);
+      }, 100);
+    })
+    .catch(() => setApiError(true));
+  }, []);
+
+  const runDetection = async () => {
+    setStatus('loading');
+    try {
+      const [detectData, networkData] = await Promise.all([
+        fetch(`${API}/api/detect`).then(r => r.json()),
+        fetch(`${API}/api/network`).then(r => r.json()),
+      ]);
+      setDetected(Array.isArray(detectData) ? detectData : []);
+      setGraphData(networkData);
+      setStatus('done');
+    } catch {
+      setStatus('error');
+    }
+  };
+
+  const statusBar = {
+    idle:    { text: 'Vault sealed 🔒',                      color: 'text-blue-400',   dot: 'bg-blue-400' },
+    loading: { text: 'AI processing inside vault...',        color: 'text-yellow-400', dot: 'bg-yellow-400' },
+    done:    { text: 'Detection complete ✅',                color: 'text-green-400',  dot: 'bg-green-400' },
+    error:   { text: 'API Error — check Flask server',       color: 'text-red-400',    dot: 'bg-red-400' },
+  }[status];
+
+  const scrambledCols = scrambled.length > 0 ? Object.keys(scrambled[0]) : [];
+
+  return (
+    <div className="min-h-screen bg-gray-900 text-white flex flex-col">
+
+      {/* ── Top Banner ── */}
+      <header className="w-full py-5 px-6 bg-gradient-to-r from-blue-900 via-indigo-900 to-purple-900 shadow-lg border-b border-blue-800">
+        <div className="max-w-7xl mx-auto flex flex-col items-center gap-1">
+          <h1 className="text-2xl md:text-3xl font-extrabold tracking-tight text-center">
+            🔐 IBM Z Confidential Computing
+          </h1>
+          <h2 className="text-lg md:text-xl font-semibold text-blue-300 text-center">
+            Private Bank-to-Bank Fraud Detection Demo
+          </h2>
+          <p className="text-xs text-blue-400 mt-1 text-center max-w-2xl">
+            Multi-bank fraud rings detected by AI running inside an encrypted IBM Z Secure Execution vault —
+            raw customer data never leaves the hardware-protected enclave.
+          </p>
+        </div>
+      </header>
+
+      {/* ── API Error Banner ── */}
+      {apiError && (
+        <div className="bg-red-900 border border-red-700 text-red-200 text-sm px-6 py-3 text-center">
+          ⚠️ Could not connect to Flask API — run <code className="bg-red-800 px-1 rounded">python3 src/app.py</code> first,
+          then reload this page.
+        </div>
+      )}
+
+      {/* ── Status Bar ── */}
+      <div className="flex items-center justify-center gap-2 py-2 bg-gray-800 border-b border-gray-700 text-sm">
+        <span className={`w-2 h-2 rounded-full ${statusBar.dot} ${status === 'loading' ? 'pulse-dot' : ''}`} />
+        <span className={statusBar.color}>{statusBar.text}</span>
+      </div>
+
+      {/* ── Stat Cards ── */}
+      <section className="max-w-7xl mx-auto w-full px-4 py-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <StatCard
+            label="Transactions Analyzed"
+            value={stats ? stats.total_transactions?.toLocaleString() : '…'}
+            icon="💳"
+            color="border-blue-700"
+          />
+          <StatCard
+            label="Fraud Rings Detected"
+            value={stats ? stats.fraud_rings_found : '…'}
+            icon="🕸️"
+            color="border-red-700"
+          />
+          <StatCard
+            label="Banks Protected"
+            value={stats ? stats.banks_protected : '…'}
+            icon="🏦"
+            color="border-green-700"
+          />
+          <StatCard
+            label="AI Accuracy"
+            value={stats ? `${Math.round(stats.accuracy * 100)}%` : '…'}
+            icon="🎯"
+            color="border-purple-700"
+          />
+        </div>
+      </section>
+
+      {/* ── Dual Panel ── */}
+      <main className="max-w-7xl mx-auto w-full px-4 pb-8 flex flex-col md:flex-row gap-4">
+
+        {/* LEFT — Screen A */}
+        <section className="w-full md:w-1/2 bg-gray-800 rounded-xl border border-gray-700 flex flex-col overflow-hidden shadow-xl">
+          <div className="bg-red-800 px-4 py-3 flex items-center gap-2">
+            <span className="text-lg">🔒</span>
+            <div>
+              <h3 className="font-bold text-white text-sm">Screen A: What Banks See</h3>
+              <p className="text-red-200 text-xs">RAW DATA — ENCRYPTED IN IBM Z SECURE EXECUTION</p>
+            </div>
+          </div>
+          <div className="p-3 flex-1 overflow-hidden">
+            {scrambled.length === 0 && !apiError && (
+              <div className="flex items-center justify-center h-32 text-gray-500 text-sm">
+                Loading encrypted data…
+              </div>
+            )}
+            {scrambled.length > 0 && (
+              <div className="overflow-auto max-h-96 rounded border border-gray-700">
+                <table className="text-xs w-full border-collapse">
+                  <thead className="sticky top-0 bg-gray-900">
+                    <tr>
+                      {['TX_ID','SENDER','RECEIVER','AMOUNT','TIMESTAMP','BANK_SRC','BANK_DEST'].map(h => (
+                        <th key={h} className="px-2 py-1.5 text-left text-gray-400 font-semibold border-b border-gray-700 whitespace-nowrap">
+                          {h}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {scrambled.slice(0, rowsVisible).map((row, i) => (
+                      <tr
+                        key={i}
+                        className="row-animate border-b border-gray-700 hover:bg-gray-700 transition-colors"
+                        style={{ animationDelay: `${i * 0}ms` }}
+                      >
+                        {Object.values(row).map((val, j) => (
+                          <td key={j} className="px-2 py-1 font-mono text-green-400 whitespace-nowrap">
+                            {String(val).slice(0, 10)}
+                          </td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+            <p className="mt-2 text-xs text-gray-500 italic">
+              Every value is AES-256-CBC encrypted hex — account numbers, amounts, and names are completely hidden from bank admins.
+            </p>
+          </div>
+        </section>
+
+        {/* RIGHT — Screen B */}
+        <section className="w-full md:w-1/2 bg-gray-800 rounded-xl border border-gray-700 flex flex-col overflow-hidden shadow-xl">
+          <div className="bg-green-800 px-4 py-3 flex items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <span className="text-lg">🤖</span>
+              <div>
+                <h3 className="font-bold text-white text-sm">Screen B: AI Fraud Detection</h3>
+                <p className="text-green-200 text-xs">Graph + ML model running inside the encrypted vault</p>
+              </div>
+            </div>
+            <button
+              onClick={runDetection}
+              disabled={status === 'loading'}
+              className={`px-4 py-1.5 rounded-lg text-sm font-bold transition-all shadow
+                ${status === 'loading'
+                  ? 'bg-gray-600 text-gray-400 cursor-not-allowed'
+                  : 'bg-green-500 hover:bg-green-400 text-white cursor-pointer hover:shadow-green-500/30 hover:shadow-lg'
+                }`}
+            >
+              {status === 'loading' ? '⏳ Running…' : '▶ Run Live Detection'}
+            </button>
+          </div>
+
+          <div className="p-3 flex-1 flex flex-col gap-3 overflow-hidden">
+            {/* D3 Graph */}
+            {status !== 'idle' && (
+              <div>
+                <h4 className="text-xs font-semibold text-gray-400 mb-1 uppercase tracking-wide">
+                  Fraud Network Graph
+                </h4>
+                {status === 'loading' ? (
+                  <div className="flex items-center justify-center h-48 text-gray-500 text-sm animate-pulse">
+                    🔍 AI analyzing transaction graph…
+                  </div>
+                ) : (
+                  <D3Graph graphData={graphData} />
+                )}
+              </div>
+            )}
+
+            {/* Flagged transactions table */}
+            {status === 'done' && detected.length > 0 && (
+              <div className="flex flex-col gap-2">
+                <h4 className="text-xs font-semibold text-gray-400 uppercase tracking-wide">
+                  Flagged Transactions ({detected.length})
+                </h4>
+                <div className="overflow-auto max-h-48 rounded border border-gray-700">
+                  <table className="text-xs w-full border-collapse">
+                    <thead className="sticky top-0 bg-gray-900">
+                      <tr>
+                        {['Transaction ID','Fraud Score','Ring ID','Banks Involved'].map(h => (
+                          <th key={h} className="px-2 py-1.5 text-left text-gray-400 font-semibold border-b border-gray-700 whitespace-nowrap">
+                            {h}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {detected.slice(0, 50).map((r, i) => (
+                        <tr key={i} className="border-b border-gray-700 hover:bg-gray-700 transition-colors">
+                          <td className="px-2 py-1 font-mono text-orange-300">{r.transaction_id}</td>
+                          <td className="px-2 py-1"><ScoreBadge score={r.fraud_score} /></td>
+                          <td className="px-2 py-1 text-purple-300">Ring {r.ring_id}</td>
+                          <td className="px-2 py-1 text-blue-300 text-xs">{r.involved_banks?.join(' → ')}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
+
+            {status === 'done' && detected.length === 0 && (
+              <div className="flex items-center justify-center h-24 text-gray-500 text-sm">
+                No fraud detected above threshold.
+              </div>
+            )}
+
+            {status === 'idle' && (
+              <div className="flex flex-col items-center justify-center flex-1 gap-3 text-center py-8">
+                <span className="text-5xl">🛡️</span>
+                <p className="text-gray-400 text-sm max-w-xs">
+                  Click <strong className="text-green-400">Run Live Detection</strong> to activate the AI fraud hunter.
+                  The model runs inside the encrypted IBM Z vault — it sees the data, you don't.
+                </p>
+              </div>
+            )}
+
+            {status === 'error' && (
+              <div className="bg-red-900 border border-red-700 rounded-lg p-3 text-sm text-red-200 text-center">
+                ⚠️ Detection failed — make sure Flask is running:<br/>
+                <code className="bg-red-800 px-1 rounded text-xs">python3 src/app.py</code>
+              </div>
+            )}
+          </div>
+        </section>
+      </main>
+
+      {/* ── Footer ── */}
+      <footer className="text-center text-xs text-gray-600 pb-4 mt-auto">
+        IBM Z Confidential Computing Demo — IBMDatathon 2024
+        &nbsp;|&nbsp; NorthBank · MidBank · SouthBank
+        &nbsp;|&nbsp; AES-256-CBC · NetworkX · RandomForest
+      </footer>
+    </div>
+  );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+</script>
+</body>
+</html>

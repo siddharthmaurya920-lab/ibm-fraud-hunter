@@ -1,0 +1,5379 @@
+[
+  {
+    "transaction_id": "TXN_0000",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0001",
+    "fraud_score": 0.9992,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0002",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0003",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0004",
+    "fraud_score": 0.9985,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0005",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0006",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0007",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0008",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0009",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0010",
+    "fraud_score": 0.9954,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0011",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0012",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0013",
+    "fraud_score": 0.9989,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0014",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0015",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0016",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0017",
+    "fraud_score": 0.9812,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0018",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0019",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0020",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0021",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0022",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0023",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0024",
+    "fraud_score": 0.9992,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0025",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0026",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0027",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0028",
+    "fraud_score": 0.9993,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0029",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0030",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0031",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0032",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0033",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0034",
+    "fraud_score": 0.9982,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0035",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0036",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0037",
+    "fraud_score": 0.9992,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0038",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0039",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0040",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0041",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0042",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0043",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0044",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0045",
+    "fraud_score": 0.9985,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0046",
+    "fraud_score": 0.9982,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0047",
+    "fraud_score": 0.9795,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0048",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0049",
+    "fraud_score": 0.9987,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0050",
+    "fraud_score": 0.9976,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0051",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0052",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0053",
+    "fraud_score": 0.3083,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0054",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0055",
+    "fraud_score": 0.9992,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0056",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0057",
+    "fraud_score": 0.9987,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0058",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0059",
+    "fraud_score": 0.9992,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0060",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0061",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0062",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0063",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0064",
+    "fraud_score": 0.9989,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0065",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0066",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0067",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0068",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0069",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0070",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0071",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0072",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0073",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0074",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0075",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0076",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0077",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0078",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0079",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0080",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0081",
+    "fraud_score": 0.9992,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0082",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0083",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0084",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0085",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0086",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0087",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0088",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0089",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0090",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0091",
+    "fraud_score": 0.0233,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0092",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0093",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0094",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0095",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0096",
+    "fraud_score": 0.9949,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0097",
+    "fraud_score": 0.9992,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0098",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0099",
+    "fraud_score": 0.9987,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0100",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0101",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0102",
+    "fraud_score": 0.9987,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0103",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0104",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0105",
+    "fraud_score": 0.9867,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0106",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0107",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0108",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0109",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0110",
+    "fraud_score": 0.0067,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0111",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0112",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0113",
+    "fraud_score": 0.9895,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0114",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0115",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0116",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0117",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0118",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0119",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0120",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0121",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0122",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0123",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0124",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0125",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0126",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0127",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0128",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0129",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0130",
+    "fraud_score": 0.9987,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0131",
+    "fraud_score": 0.9801,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0132",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0133",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0134",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0135",
+    "fraud_score": 0.9994,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0136",
+    "fraud_score": 0.002,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0137",
+    "fraud_score": 0.9989,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0138",
+    "fraud_score": 0.9987,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0139",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0140",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0141",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0142",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0143",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0144",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0145",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0146",
+    "fraud_score": 0.9987,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0147",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0148",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0149",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0150",
+    "fraud_score": 0.9982,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0151",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0152",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0153",
+    "fraud_score": 0.9987,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0154",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0155",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0156",
+    "fraud_score": 0.9982,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0157",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0158",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0159",
+    "fraud_score": 0.9994,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0160",
+    "fraud_score": 0.9989,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0161",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0162",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0163",
+    "fraud_score": 0.9987,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0164",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0165",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0166",
+    "fraud_score": 0.9987,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0167",
+    "fraud_score": 0.9795,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0168",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0169",
+    "fraud_score": 0.9989,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0170",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0171",
+    "fraud_score": 0.01,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0172",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0173",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0174",
+    "fraud_score": 0.9984,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0175",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0176",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0177",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0178",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0179",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0180",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0181",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0182",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0183",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0184",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0185",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0186",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0187",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0188",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0189",
+    "fraud_score": 0.1067,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0190",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0191",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0192",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0193",
+    "fraud_score": 0.3127,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0194",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0195",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0196",
+    "fraud_score": 0.0133,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0197",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0198",
+    "fraud_score": 0.0067,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0199",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0200",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0201",
+    "fraud_score": 0.9989,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0202",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0203",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0204",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0205",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0206",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0207",
+    "fraud_score": 0.9992,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0208",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0209",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0210",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0211",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0212",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0213",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0214",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0215",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0216",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0217",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0218",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0219",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0220",
+    "fraud_score": 0.0033,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0221",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0222",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0223",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0224",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0225",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0226",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0227",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0228",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0229",
+    "fraud_score": 0.9994,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0230",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0231",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0232",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0233",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0234",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0235",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0236",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0237",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0238",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0239",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0240",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0241",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0242",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0243",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0244",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0245",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0246",
+    "fraud_score": 0.9989,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0247",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0248",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0249",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0250",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0251",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0252",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0253",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0254",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0255",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0256",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0257",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0258",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0259",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0260",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0261",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0262",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0263",
+    "fraud_score": 0.9993,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0264",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0265",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0266",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0267",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0268",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0269",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0270",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0271",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0272",
+    "fraud_score": 0.3029,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0273",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0274",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0275",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0276",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0277",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0278",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0279",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0280",
+    "fraud_score": 0.0133,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0281",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0282",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0283",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0284",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0285",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0286",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0287",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0288",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0289",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0290",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0291",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0292",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0293",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0294",
+    "fraud_score": 0.9949,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0295",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0296",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0297",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0298",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0299",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0300",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0301",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0302",
+    "fraud_score": 0.03,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0303",
+    "fraud_score": 0.0033,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0304",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0305",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0306",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0307",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0308",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0309",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0310",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0311",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0312",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0313",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0314",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0315",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0316",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0317",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0318",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0319",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0320",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0321",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0322",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0323",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0324",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0325",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0326",
+    "fraud_score": 0.9989,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0327",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0328",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0329",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0330",
+    "fraud_score": 0.0033,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0331",
+    "fraud_score": 0.9954,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0332",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0333",
+    "fraud_score": 0.9987,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0334",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0335",
+    "fraud_score": 0.0206,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0336",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0337",
+    "fraud_score": 0.0033,
+    "ring_id": 3,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0338",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0339",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0340",
+    "fraud_score": 0.9994,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0341",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0342",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0343",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0344",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0345",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0346",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0347",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0348",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0349",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0350",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0351",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0352",
+    "fraud_score": 0.9982,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0353",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0354",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0355",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0356",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0357",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0358",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0359",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0360",
+    "fraud_score": 0.9993,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0361",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0362",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0363",
+    "fraud_score": 0.9976,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0364",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0365",
+    "fraud_score": 0.9985,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0366",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0367",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0368",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0369",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0370",
+    "fraud_score": 0.9977,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0371",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0372",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0373",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0374",
+    "fraud_score": 0.4363,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0375",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0376",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0377",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0378",
+    "fraud_score": 0.9994,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0379",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0380",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0381",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0382",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0383",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0384",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0385",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0386",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0387",
+    "fraud_score": 0.9954,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0388",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0389",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0390",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0391",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0392",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0393",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0394",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0395",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0396",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0397",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0398",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0399",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0400",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0401",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0402",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0403",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0404",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0405",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0406",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0407",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0408",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0409",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0410",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0411",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0412",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0413",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0414",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0415",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0416",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0417",
+    "fraud_score": 0.9989,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0418",
+    "fraud_score": 0.9992,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0419",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0420",
+    "fraud_score": 0.9982,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0421",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0422",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0423",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0424",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0425",
+    "fraud_score": 0.9981,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0426",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0427",
+    "fraud_score": 0.9595,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0428",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0429",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0430",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0431",
+    "fraud_score": 0.9987,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0432",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0433",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0434",
+    "fraud_score": 0.9992,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0435",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0436",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0437",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0438",
+    "fraud_score": 0.9954,
+    "ring_id": 0,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0439",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0440",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0441",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0442",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0443",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0444",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0445",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0446",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0447",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0448",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0449",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0450",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0451",
+    "fraud_score": 0.9994,
+    "ring_id": 4,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0452",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0453",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0454",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0455",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0456",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0457",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0458",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0459",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0460",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0461",
+    "fraud_score": 0.996,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0462",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0463",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0464",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0465",
+    "fraud_score": 0.0033,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0466",
+    "fraud_score": 0.9949,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0467",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0468",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0469",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0470",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0471",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0472",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0473",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0474",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0475",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0476",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0477",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0478",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0479",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0480",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0481",
+    "fraud_score": 0.01,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0482",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "NorthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0483",
+    "fraud_score": 0.9995,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "MidBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0484",
+    "fraud_score": 0.0,
+    "ring_id": 3,
+    "involved_banks": [
+      "MidBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0485",
+    "fraud_score": 0.9985,
+    "ring_id": 4,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0486",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0487",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0488",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0489",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0490",
+    "fraud_score": 0.9946,
+    "ring_id": 0,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0491",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0492",
+    "fraud_score": 0.9987,
+    "ring_id": 7,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0493",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0494",
+    "fraud_score": 0.9992,
+    "ring_id": 7,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0495",
+    "fraud_score": 0.9995,
+    "ring_id": 8,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": true,
+    "is_fraud_actual": true
+  },
+  {
+    "transaction_id": "TXN_0496",
+    "fraud_score": 0.0,
+    "ring_id": 6,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0497",
+    "fraud_score": 0.0,
+    "ring_id": 5,
+    "involved_banks": [
+      "NorthBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0498",
+    "fraud_score": 0.0,
+    "ring_id": 2,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  },
+  {
+    "transaction_id": "TXN_0499",
+    "fraud_score": 0.0,
+    "ring_id": 1,
+    "involved_banks": [
+      "MidBank",
+      "SouthBank"
+    ],
+    "is_fraud_predicted": false,
+    "is_fraud_actual": false
+  }
+]
